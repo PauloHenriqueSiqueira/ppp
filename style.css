@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+}
+
+header {
+    background-color: #232323;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu3 {
+    font-family: 'Bebas Neue', cursive;
+    color: #F49300;
+    font-size: 45px;
+}
+
+.menu-principal {
+    border-top: 5px solid #F49300;
+    border-bottom: 5px solid #F49300;
+    background-image: url("../image/camera01.png");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 580px;
+}
+
+.principal1 {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+p {
+    color: #F49300;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 36px;
+}
+
+button {
+    font-size: 23px;
+    font-family: 'Bebas Neue', cursive;
+    color: #F49300;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #97979725;
+    cursor: pointer;
+    box-shadow: 5px 6px 10px #232323;
+}
+
+button:hover {
+    background-color: #f4920015;
+}
+
+footer {
+    background-color: #232323;
+    height: 100px;
+}
+
+.footerr {
+    margin-top: 30px;
+    font-family: 'Bebas Neue', cursive;
+    color: #F49300;
+}
+
+.foo {
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    flex-direction: column;
+}
+.video {
+    min-height: 200px;
+    max-width: 500px ;
+    min-width: 200px;
+}
+
+@media (max-width: 376px) {
+    .final {
+       height: 100px;
+    }
+    p{ 
+        font-size: medium;
+    }
+    .video {
+        width: 250px;
+        height: 100px;
+    }
+}
